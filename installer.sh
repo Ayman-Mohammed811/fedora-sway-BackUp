@@ -1,7 +1,7 @@
 
 sudo dnf install alacritty fastfetch git gh g++ gcc gdb fzf zsh wf-recorder kdeconnectd copyq
 
-sudo dnf install flatpak ninja-build cmake mako lsd qt5ct qt6ct  curl htop wlogout
+sudo dnf install flatpak ninja-build cmake mako lsd qt5ct qt6ct  curl htop wlogout cava pulseaudio-libs-devel
 
 sudo dnf remove firefox 
 
