@@ -1,0 +1,40 @@
+[font]
+size = 13.0
+
+#[font.normal]
+#family = "Cascadia"
+##style = "Regular"
+#
+#[font.bold]
+#family = "Cascadia"
+##style = "Bold"
+#
+#[font.italic]
+#family ="Cascadia"
+##style = "Italic"
+
+[colors]
+primary.background = "#000000" 
+
+primary.foreground = "#FFFFFF"    
+
+[colors.normal]
+black   = "#0F0B09"
+red     = "#FF5555"
+green   = "#50FA7B"
+yellow  = "#F1FA8C"
+blue    = "#2566D9"
+magenta = "#FF79C6"
+cyan    = "#8BE9FD"
+white   = "#F8F8F2"
+
+[colors.bright]
+black   = "#3D3936"
+red     = "#FF6E6E"
+green   = "#69FF94"
+yellow  = "#FFFFA5"
+blue    = "#D6ACFF"
+magenta = "#FF92DF"
+cyan    = "#A4FFFF"
+white   = "#FFFFFF"
+

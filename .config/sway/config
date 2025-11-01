@@ -1,0 +1,19 @@
+
+
+   input "1102:4642:ALP001F:00_044E:1222_Touchpad" {
+    tap enabled               # Enable tap-to-click
+    dwt enabled               # Disable while typing
+    natural_scroll enabled    # Natural scrolling
+    middle_emulation enabled  # Middle button emulation
+    scroll_method two_finger  # Two-finger scrolling
+    accel_profile adaptive    # Adaptive pointer acceleration
+        }
+
+include customize/*.conf
+
+#include config-systemd.d/*.conf
+
+#include layered/*.conf
+
+include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "/etc/sway/config.d/*.conf" "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf")'
+
